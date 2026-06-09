@@ -1,0 +1,53 @@
+.glass-card,
+.btn-primary,
+.btn-secondary,
+.category-card,
+.feature-card,
+.complaint-card,
+.quick-action-card,
+.stat-card,
+.sidebar,
+.auth-card,
+.dashboard-hero,
+.form-panel,
+.panel-block,
+.notification {
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease, background 0.22s ease;
+}
+
+.glass-card:hover,
+.category-card:hover,
+.feature-card:hover,
+.complaint-card:hover,
+.quick-action-card:hover,
+.stat-card:hover,
+.sidebar:hover,
+.auth-card:hover,
+.dashboard-hero:hover,
+.form-panel:hover,
+.panel-block:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 30px 70px rgba(2, 6, 23, 0.5);
+}
+
+.hero-copy,
+.hero-panel,
+.section-block,
+.dashboard-page,
+.auth-card,
+.profile-grid,
+.details-layout {
+  animation: fadeUp 0.7s ease both;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
